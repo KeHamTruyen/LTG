@@ -2,6 +2,26 @@
 
 A fun whack-a-mole style game where you whack zombies that appear from graves!
 
+## Project Structure
+
+```
+LTG/
+├── README.md
+├── .gitignore
+└── BTL1_LTG/          # Main game folder
+    ├── zombie_whack.py    # Main game file
+    ├── test_grave.py      # Test file
+    ├── .venv/             # Python virtual environment
+    └── assets/            # Game assets
+        ├── zombieN.png
+        ├── graveN.png
+        ├── background.jpg
+        ├── heart_full.png
+        ├── heart_empty.png
+        ├── hit.mp3
+        └── bgmusic.mp3
+```
+
 ## Features
 
 - **Timer Mode**: Toggle zombie auto-disappear timer on/off
@@ -37,9 +57,10 @@ Place these optional asset files in the same directory as the game:
 
 ## Installation
 
-1. Clone this repository
-2. Install pygame: `pip install pygame`
-3. Run the game: `python zombie_whack.py`
+1. Clone this repository: `git clone https://github.com/KeHamTruyen/LTG.git`
+2. Navigate to the game folder: `cd LTG/BTL1_LTG`
+3. Install pygame: `pip install pygame`
+4. Run the game: `python zombie_whack.py`
 
 ## How to Play
 
