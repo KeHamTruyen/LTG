@@ -30,13 +30,6 @@ LTG/
 - **Statistics Tracking**: Hits, misses, escaped zombies, and accuracy
 - **Asset Support**: Custom graphics and sounds
 
-## Controls
-
-- **Left Click**: Whack zombies
-- **ESC**: Pause/Resume game (during gameplay)
-- **R**: Reset scores only
-- **T**: Toggle timer mode during gameplay
-
 ## Assets
 
 Place these optional asset files in the same directory as the game:
