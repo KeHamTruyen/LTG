@@ -10,7 +10,6 @@ LTG/
 ├── .gitignore
 └── BTL1_LTG/          # Main game folder
     ├── zombie_whack.py    # Main game file
-    ├── test_grave.py      # Test file
     ├── .venv/             # Python virtual environment
     └── assets/            # Game assets
         ├── zombieN.png
@@ -43,7 +42,7 @@ LTG/
 Place these optional asset files in the same directory as the game:
 
 - `zombieN.png` - Zombie head image
-- `graveN.png` - Grave/hole image  
+- `graveN.png` - Grave/hole image
 - `background.jpg` - Background image
 - `heart_full.png` - Full heart icon
 - `heart_empty.png` - Empty heart icon
